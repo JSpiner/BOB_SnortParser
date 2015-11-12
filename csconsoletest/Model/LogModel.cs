@@ -1,0 +1,39 @@
+﻿using System;
+using System.Text;
+
+namespace csconsoletest
+{
+	public class LogModel
+	{
+		public String raw;
+		public LogHeader logHeader;
+		public LogBody logBody;
+
+		public static LogModel parse(String log){
+			LogModel logModel = new LogModel ();
+			logModel.raw = log;
+
+			String[] lines = log.Split(new[] {"\n"}, StringSplitOptions.None);
+
+			StringBuilder headBuilder = new StringBuilder ();
+			StringBuilder bodyBuilder = new StringBuilder ();
+
+			foreach (String line in lines) {
+				if (line.Trim ().StartsWith ("[")) {
+					headBuilder.AppendLine (line);
+				} else {
+					bodyBuilder.AppendLine (line);
+				}
+			}
+
+			logModel.logHeader = 
+				new LogHeader (headBuilder.ToString());
+			logModel.logBody = 
+				new LogBody (bodyBuilder.ToString ());
+
+			return logModel;
+		}
+
+	}
+}
+

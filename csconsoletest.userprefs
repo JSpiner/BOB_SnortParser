@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="csconsoletest/csconsoletest.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="csconsoletest/Model/LogHeader.cs">
+    <Files>
+      <File FileName="csconsoletest/Model/LogHeader.cs" Line="4" Column="4" />
+      <File FileName="csconsoletest/Program.cs" Line="41" Column="41" />
+      <File FileName="csconsoletest/Model/RuleModel.cs" Line="1" Column="1" />
+      <File FileName="csconsoletest/Model/RuleHeader.cs" Line="1" Column="1" />
+      <File FileName="csconsoletest/Model/RuleOption.cs" Line="1" Column="1" />
+      <File FileName="csconsoletest/Model/LogModel.cs" Line="23" Column="23" />
+      <File FileName="csconsoletest/Model/LogBody.cs" Line="1" Column="1" />
+      <File FileName="csconsoletest/Properties/AssemblyInfo.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
